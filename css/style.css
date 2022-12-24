@@ -1,0 +1,164 @@
+/*----------reseto basico---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Montserrat', sans-serif;
+
+
+
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*termina reseteo basico*/
+
+
+
+h1 {
+
+    color: rgba(24, 23, 23, 0.548);
+}
+
+h2 {
+    color: rgba(24, 23, 23, 0.548);
+}
+
+
+h3 {
+    color: rgba(24, 23, 23, 0.548);
+
+}
+
+
+
+
+
+
+/*-------header--------*/
+
+header {
+
+    background-color: #ffffff;
+    padding: 15px;
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+header nav ul {
+
+    display: flex;
+    gap: 20px;
+}
+
+
+/*termina header*/
+
+
+
+
+
+body {
+
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(255, 255, 251);
+    font-size: 12px;
+    text-align: center;
+
+}
+
+
+/* ----- Productos ----- */
+
+.productos-titulo {
+    background-color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+
+.slider-productos {
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+    overflow: auto;
+}
+
+
+/* ---- Tarjeta ----  */
+
+.productos-propiedades {
+
+    border: 2px solid black;
+    border-radius: 20px;
+
+    overflow: hidden;
+
+    min-width: 300px;
+    height: 350px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.slider-productos {
+    padding: 15px;
+    display: flex;
+    gap: 20px;
+    overflow: auto;
+}
+
+@media (min-width: 768px) {
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 10%;
+    }
+  
+    nav {
+      display: block;
+    }
+  
+    header ul {
+      display: flex;
+      gap: 20px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    .about-section {
+      padding: 5%;
+  
+      display: grid;
+      grid-template-columns: repeat(2, 50%);
+    }
+  
+    .about-img {
+      grid-column: 2 / 3;
+    }
+  
+    .about-img img {
+      height: 100%;
+      object-fit: cover;
+    }
+    .about-section article {
+      grid-column: 1 / 2;
+      grid-row: 1/2;
+    }
+  }
+  

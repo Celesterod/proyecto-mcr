@@ -1,0 +1,64 @@
+00:21:53	cesar rege:	si, no tiene nada que ver con esta clase, pero como era para que abra con mozilla envez de Chrome?
+00:22:12	cesar rege:	listo
+00:22:12	Nahuel Rosso:	profe yo me quede con una duda de la entrega. Con todas estas herramientas nuevas me dieron ganas de hacer un nuevo proyecto de 0. Se puede?
+00:22:45	cesar rege:	ah si es verdad copio el link y lo pego en mozilla por si no lo configuro
+00:23:02	Nahuel Rosso:	otra duda que tenia era lo del archivo README, el cual no termine de entender para que sirve y como hacerlo
+00:24:18	Victor Martinez:	Es para hacer una descripción del proyecto
+00:26:44	Nahuel Rosso:	aah okok perfecto
+00:26:47	Nahuel Rosso:	gracias
+00:31:46	eddie cobos carrasco:	no
+00:31:47	cesar rege:	no, todo bien
+00:52:44	Victor Martinez:	SIsis todo claor
+00:52:46	Victor Martinez:	claor
+00:52:46	eddie cobos carrasco:	todo bien
+00:52:48	Javier Aparicio:	va bien
+00:52:49	Victor Martinez:	claro
+00:52:55	Lucas Garcia:	todo genial
+00:53:03	cesar rege:	bien
+00:54:36	Victor Martinez:	display none
+01:08:58	Victor Martinez:	Me perdi en eso del boton
+01:09:09	eddie cobos carrasco:	bien
+01:09:15	cesar rege:	bien
+01:09:20	Nahuel Rosso:	yo tmb me perdi en el boton
+01:10:50	Victor Martinez:	SIsi
+01:10:55	Nahuel Rosso:	sisi
+01:10:58	DIEGO PANNO:	Buenas noches para todos me tengo que retirar, muchas felicidades
+01:11:52	Victor Martinez:	Ahora si comprendo
+01:11:55	Nahuel Rosso:	aaah
+01:13:01	Nahuel Rosso:	si ahora si
+01:13:02	Victor Martinez:	Sisis
+01:16:04	Javier Aparicio:	bien bien
+01:16:04	Nahuel Rosso:	si le ponías un padding botton al primer div tmb funciona?
+01:16:35	Nahuel Rosso:	dale
+01:16:35	eddie cobos carrasco:	va
+01:16:37	Victor Martinez:	Bueno
+01:16:41	Javier Aparicio:	sisi dale
+01:16:42	cesar rege:	si si yo me quedo hasta que termine jaja
+01:16:48	Javier Aparicio:	metale nomá :D
+01:16:49	Nahuel Rosso:	lo q me esta sirviendo este after no tiene nombre
+01:19:21	Nahuel Rosso:	que es el script debajo del footer?
+01:19:32	cesar rege:	el de boot
+01:19:35	Nahuel Rosso:	aah si
+01:27:34	Nahuel Rosso:	align item
+01:29:37	Marco Serlik:	https://icons.getbootstrap.com/
+01:32:50	Alvaro Vinderola:	Me retiro Marco, felices fiestas, muy buen after
+01:35:32	Sebastián Ortega:	Ya pasaron asistencia?
+01:36:04	Nahuel Rosso:	no hay asistencia creo en los after
+01:36:07	Nahuel Rosso:	son optativos
+01:36:33	Sebastián Ortega:	Gracias a todos
+01:41:22	Victor Martinez:	!important
+01:49:03	Nahuel Rosso:	si
+01:49:04	cesar rege:	si
+01:49:05	cesar rege:	perfecto
+01:49:06	Victor Martinez:	Sisis
+01:49:09	eddie cobos carrasco:	si
+01:49:29	Nahuel Rosso:	me sirvió muchísimo para repasar bootstrap
+01:49:38	Javier Aparicio:	excelente todo el repaso
+01:49:43	cesar rege:	Gracias, felices fiestas para todos
+01:49:53	Nahuel Rosso:	felices fiestas
+01:50:05	Javier Aparicio:	gracias Marco, felices fiestas y excelente comienzo de año!
+01:50:28	eddie cobos carrasco:	felices fiestas todos
+01:50:34	Nahuel Rosso:	profe
+01:50:38	Nahuel Rosso:	yo no pude valorar la clase a tiempo
+01:50:43	Nahuel Rosso:	de la anterior
+01:51:02	Nahuel Rosso:	de la clase del sábado
