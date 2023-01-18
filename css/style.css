@@ -6,9 +6,6 @@
   font-family: 'Montserrat', sans-serif;
 
 
-
-
-
 }
 
 ul,
@@ -24,20 +21,8 @@ a {
 
 
 
-h1 {
-
-  color: rgba(24, 23, 23, 0.548);
-}
-
-h2 {
-  color: rgba(24, 23, 23, 0.548);
-}
 
 
-h3 {
-  color: rgba(24, 23, 23, 0.548);
-
-}
 
 /*----header----*/
 
@@ -76,7 +61,10 @@ header nav ul {
     display: flex;
     gap: 20px;
   }
+
+ 
 }
+
 
 /*termina header*/
 
@@ -93,6 +81,7 @@ body {
   text-align: center;
   color: black;
 
+
 }
 
 
@@ -102,27 +91,18 @@ p {
   font-size: 14px;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400;
-  margin: 0 0 20px 0;
-  padding: 0;
-}
-
 /* Empieza Nosotros
 --------------------------------*/
 
-h3{
+h3 {
 
-  font-size: 30px;
+  font-size: 20px;
   font-family: "Montserrat", sans-serif;
-  color: brown;
+  color: rgb(75, 70, 70);
+  padding:5px ;
 }
+
+
 
 /* Termina Nosotros!
 --------------------------------*/
@@ -168,3 +148,89 @@ h3{
   gap: 20px;
   overflow: auto;
 }
+
+/*
+.servicios-fondo {
+
+  background-color: blue;
+}
+
+
+/* Servicios
+--------------------------------*/
+#servicios {
+  padding: 60px 0;
+  background:#e7cba4;
+}
+
+#servicios .section-header h3,
+#servicios .section-header p {
+  color: #fff;
+}
+
+#servicios .card {
+  background: #e7cba4;
+  border-color:#e7cba4;
+  border-radius: 10px;
+  margin: 0 15px;
+  padding: 15px 0;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+}
+
+#servicios .card:hover {
+  background: #e7cba4;
+  border-color:#e7cba4;
+}
+
+#servicios .card i {
+  font-size: 48px;
+  padding-top: 15px;
+  color: #fff;
+}
+
+#servicios .card h6 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#servicios .card p {
+  font-size: 15px;
+  color: #fff;
+}
+
+#servicios .card .readmore {
+  color: #fff;
+  font-weight: 600;
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+  border-bottom: #00458f solid 2px;
+}
+
+#servicios.card .readmore:hover {
+  border-bottom: #fff solid 2px;
+}
+
+#servicios .counters {
+  padding-top: 40px;
+}
+
+#servicios .counters span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  display: block;
+  color: #fff;
+}
+
+#servicios .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #cce5ff;
+}
+/*  Termina Servicios
+--------------------------------*/
