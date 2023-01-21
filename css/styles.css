@@ -1,0 +1,431 @@
+/*----------reseto basico---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*termina reseteo basico*/
+
+
+
+
+
+
+/*----header----*/
+
+header {
+  background-color: white;
+  padding: 15px;
+
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+header nav ul {
+
+  display: flexbox;
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+  }
+
+  nav {
+    display: block;
+  }
+
+  header ul {
+    display: flex;
+    gap: 20px;
+  }
+
+
+}
+
+
+/*termina header*/
+
+
+
+
+
+
+body {
+
+  font-family: 'Montserrat', sans-serif;
+  background-color: rgb(255, 255, 251);
+  font-size: 12px;
+  text-align: center;
+
+
+
+
+
+}
+
+
+p {
+  padding: 0;
+  margin: 0 0 30px 0;
+  font-size: 14px;
+}
+
+/* Empieza Nosotros
+--------------------------------*/
+
+h3 {
+
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  padding: 5px;
+}
+
+
+
+/* Termina Nosotros!
+--------------------------------*/
+
+/* ----- Productos ----- */
+
+.productos-titulo {
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+
+.slider-productos {
+  padding: 15px;
+  display: flex;
+  gap: 20px;
+  overflow: auto;
+}
+
+
+/* ---- Tarjeta ----  */
+
+.productos-propiedades {
+
+  border: 2px solid black;
+  border-radius: 20px;
+
+  overflow: hidden;
+
+  min-width: 300px;
+  height: 350px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slider-productos {
+  padding: 15px;
+  display: flex;
+  gap: 20px;
+  overflow: auto;
+}
+
+
+
+/* Servicios
+--------------------------------*/
+#servicios {
+  padding: 60px 0;
+  background: #c4d428;
+}
+
+#servicios .section-header h3,
+#servicios .section-header p {
+  color: #fff;
+}
+
+#servicios .card {
+  background: #c4d428;
+  border-color: #c4d428;
+  border-radius: 10px;
+  margin: 0 15px;
+  padding: 15px 0;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+}
+
+#servicios .card:hover {
+  background: #c4d428;
+  border-color: #c4d428;
+}
+
+#servicios .card i {
+  font-size: 48px;
+  padding-top: 15px;
+  color: #fff;
+}
+
+#servicios .card h6 {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+#servicios .card p {
+  font-size: 15px;
+  color: #fff;
+}
+
+#servicios .card .readmore {
+  color: #fff;
+  font-weight: 600;
+  display: inline-block;
+  transition: 0.3s ease-in-out;
+  border-bottom: #00458f solid 2px;
+}
+
+#servicios.card .readmore:hover {
+  border-bottom: #fff solid 2px;
+}
+
+#servicios .counters {
+  padding-top: 40px;
+}
+
+#servicios .counters span {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  font-size: 48px;
+  display: block;
+  color: #fff;
+}
+
+#servicios .counters p {
+  padding: 0;
+  margin: 0 0 20px 0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #cce5ff;
+}
+
+/*
+# pie de pagina
+--------------------------------------------------------------*/
+
+#footer {
+  background: #c4d428;
+  padding: 60px 0 30px 0;
+  color: #eee;
+  font-size: 14px;
+}
+
+#footer .footer-top {
+  background: #c4d428;
+  padding: 60px 0 30px 0;
+  color: #eee;
+}
+
+#footer .footer-top .footer-info {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-info h3 {
+  font-size: 14px;
+  margin: 0 0 20px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  font-weight: bold;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  color: #eee;
+}
+
+#footer .footer-top .footer-info p {
+  font-size: 13px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  color: #ecf5ff;
+}
+
+#footer .footer-top .social-links a {
+  font-size: 18px;
+  display: inline-block;
+  background: #c4d428;
+  color: white;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  border: solid white 0px;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+
+#footer .footer-top h4 {
+  font-size: 14px;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+#footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#footer .footer-top .footer-links ul li {
+  padding: 8px 0;
+}
+
+#footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+#footer .footer-top .footer-links ul a {
+  color: #ecf5ff;
+}
+
+#footer .footer-top .footer-links ul a:hover {
+  color: #74b5fc;
+}
+
+#footer .footer-top .footer-contact {
+  margin-bottom: 30px;
+}
+
+#footer .footer-top .footer-contact p {
+  line-height: 26px;
+}
+
+#footer .footer-top .footer-newsletter {
+  margin-bottom: 30px;
+  color: #eee;
+}
+
+#footer .footer-top .footer-newsletter input[type="email"] {
+  border: 0;
+  padding: 6px 8px;
+  width: 50%;
+  height: 44px;
+}
+
+#footer .footer-top .footer-newsletter input[type="submit"] {
+  background: #c4d428;
+  border: solid white 1.5px;
+  width: 50%;
+  text-align: center;
+  color: #fff;
+  transition: 0.3s;
+  cursor: pointer;
+
+  text-transform: uppercase;
+  padding left: 12px;
+  padding right: 12px;
+
+  letter-spacing: 1.5px;
+  font-size: 14px;
+  height: 44px;
+}
+
+#footer .footer-top .footer-newsletter input[type="submit"]:hover {
+  color: #eee;
+  background: #c4d428;
+}
+
+#footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+}
+
+#footer .credits {
+  text-align: center;
+  font-size: 13px;
+  color: #f1f7ff;
+}
+
+#footer .credits a {
+  color: #eee;
+}
+
+#footer .credits a:hover {
+  color: #eee
+}
+
+/*formulario*/
+
+
+h2 {
+
+  color: rgb(26, 23, 19);
+  text-align: center;
+  margin: 0;
+  font-size: 20px;
+  margin-bottom: 20px;
+
+}
+
+
+
+input,
+textarea {
+
+  width: 50%;
+  margin-bottom: 20px;
+  padding: 7px;
+  font-size: 12px;
+  box-sizing: border-box;
+  border: none;
+  background-color: rgb(243, 243, 243);
+
+}
+
+textarea {
+  min-height: 100px;
+  max-height: 200px;
+  max-width: 100%;
+}
+
+
+#boton {
+  background: rgb(131, 27, 27);
+  color: #fff;
+  padding: 20px;
+}
+
+#boton:hover {
+  cursor: pointer;
+}
