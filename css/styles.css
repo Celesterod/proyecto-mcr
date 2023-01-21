@@ -105,7 +105,7 @@ p {
 --------------------------------*/
 #servicios {
   padding: 60px 0;
-  background: #89a1bc;
+  background: #e0d124;
 }
 
 #servicios .section-header h3,
@@ -114,8 +114,8 @@ p {
 }
 
 #servicios .card {
-  background: #89a1bc;
-  border-color: #89a1bc;
+  background: #e0d124;
+  border-color: #e0d124;
   border-radius: 10px;
   margin: 0 15px;
   padding: 15px 0;
@@ -126,8 +126,8 @@ p {
 }
 
 #servicios .card:hover {
-  background: #89a1bc;
-  border-color: #89a1bc;
+  background: #e0d124;
+  border-color: #e0d124;
 }
 
 #servicios .card i {
@@ -180,14 +180,14 @@ p {
 
 /*----pie de pagina---*/
 #footer {
-  background: #89a1bc;
+  background: white;
   padding: 60px 0 30px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #89a1bc;
+  background: #e0d124;
   padding: 60px 0 30px 0;
   color: #eee;
 }
@@ -220,7 +220,7 @@ p {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #89a1bc;
+  background: #e0d124;
   color: white;
   line-height: 1;
   padding: 8px 0;
@@ -261,11 +261,11 @@ p {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #ecf5ff;
+  color: #e0d124;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #74b5fc;
+  color: #e0d124;
 }
 
 #footer .footer-top .footer-contact {
@@ -300,7 +300,7 @@ p {
 }
 
 #footer .credits a {
-  color: #eee;
+  color: #e0d124;
 }
 
 #footer .credits a:hover {
