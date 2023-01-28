@@ -46,6 +46,8 @@ header nav ul {
         justify-content: space-between;
         align-items: center;
         padding: 10px 10px
+
+        
     }
 }
 
@@ -126,7 +128,7 @@ p {
 --------------------------------*/
 #servicios {
     padding: 60px 0;
-    background: #e0d124;
+    background:#cdcd76;
 }
 
 #servicios .section-header h3,
@@ -135,8 +137,8 @@ p {
 }
 
 #servicios .card {
-    background: #e0d124;
-    border-color:#e0d124;
+    background: #cdcd76;
+    border-color:#cdcd76;
     border-radius: 10px;
     margin: 0 15px;
     padding: 15px 0;
@@ -147,8 +149,8 @@ p {
 }
 
 #servicios .card:hover {
-    background: #e0d124;
-    border-color: #e0d124;
+    background: #cdcd76;
+    border-color:#cdcd76;
 }
 
 #servicios .card i {
@@ -172,7 +174,7 @@ p {
     font-weight: 600;
     display: inline-block;
     transition: 0.3s ease-in-out;
-    border-bottom: #89a1bc solid 2px;
+    border-bottom: #cdcd76 2px;
 }
 
 #servicios.card .readmore:hover {
@@ -209,7 +211,7 @@ p {
 }
 
 #footer .footer-top {
-    background: #e0d124;
+    background:#cdcd76;
     padding: 60px 0 30px 0;
     color: #eee;
 }
@@ -242,7 +244,7 @@ p {
 #footer .footer-top .social-links a {
     font-size: 18px;
     display: inline-block;
-    background:#e0d124;
+    background:#cdcd76;
     color: white;
     line-height: 1;
     padding: 8px 0;
@@ -284,11 +286,11 @@ p {
 }
 
 #footer .footer-top .footer-links ul a {
-    color:#e0d124;
+    color:#abdb25;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-    color: #e0d124;
+    color:#abdb25 ;
 }
 
 #footer .footer-top .footer-contact {
@@ -325,7 +327,7 @@ p {
 }
 
 #footer .credits a {
-    color: #e0d124;
+    color: #ecece8;
 }
 
 #footer .credits a:hover {
