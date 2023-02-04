@@ -31,6 +31,15 @@ header nav ul {
   gap: 20px;
 }
 
+/*botones*/
+.btn {
+  border: 2px solid black;
+  background-color: grey;
+  color: black;
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+
 @media (max-width: 768px) {
   header {
     bottom: 15px;
@@ -63,29 +72,16 @@ p {
   font-size: 14px;
 }
 
-/*----------empieza nosotros*----------/
-
-
-/*-------------termina nosotros----------*/
-/*----productos----*/
-.productos-titulo {
-  background-color: white;
+/*----Empieza propiedades----*/
+.propiedades-titulo {
+  background-color: #e6e1c2;
   text-align: center;
-  padding: 15px;
+  padding: 40px;
+  color: black;
 }
 
-.slider-productos {
-  padding: 15px;
-  display: flex;
-  gap: 20px;
-  overflow: auto;
-}
-
-/*---tarjeta--*/
-.productos-propiedades {
-  border: 2px solid black;
-  border-radius: 20px;
-  overflow: hidden;
+.propiedades-producto {
+  border: 2px solid rgb(241, 229, 229);
   min-width: 300px;
   height: 350px;
   display: flex;
@@ -94,18 +90,61 @@ p {
   align-items: center;
 }
 
-.slider-productos {
-  padding: 15px;
-  display: flex;
-  gap: 20px;
-  overflow: auto;
+.propiedades-producto img {
+  width: 100%;
 }
 
-/* Servicios
---------------------------------*/
+.propiedades-producto h1,
+.propiedades-producto span {
+  font-size: 15px;
+}
+
+.slider-propiedades {
+  display: flex;
+  overflow: auto;
+  gap: 20px;
+  padding: 15px;
+}
+
+/*---Termina Propiedades--*/
+/*--empieza oportunidad--*/
+.oportunidades-titulo {
+  background-color: #ffc107;
+  text-align: center;
+  padding: 40px;
+  color: white;
+}
+
+.oportunidades-producto {
+  border: 2px solid rgb(241, 229, 229);
+  min-width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.oportunidades-producto img {
+  width: 100%;
+}
+
+.oportunidades-producto h1,
+.oportunidades-producto span {
+  font-size: 15px;
+}
+
+.slider-oportunidades {
+  display: flex;
+  overflow: auto;
+  gap: 20px;
+  padding: 15px;
+}
+
+/* Servicios--------*/
 #servicios {
   padding: 60px 0;
-  background: #cdcd76;
+  background: #ffc107;
 }
 
 #servicios .section-header h3,
@@ -114,8 +153,8 @@ p {
 }
 
 #servicios .card {
-  background: #cdcd76;
-  border-color: #cdcd76;
+  background: #ffc107;
+  border-color: #ffc107;
   border-radius: 10px;
   margin: 0 15px;
   padding: 15px 0;
@@ -126,8 +165,8 @@ p {
 }
 
 #servicios .card:hover {
-  background: #cdcd76;
-  border-color: #cdcd76;
+  background: #ffc107;
+  border-color: #ffc107;
 }
 
 #servicios .card i {
@@ -151,7 +190,7 @@ p {
   font-weight: 600;
   display: inline-block;
   transition: 0.3s ease-in-out;
-  border-bottom: #cdcd76 2px;
+  border-bottom: #ffc107 2px;
 }
 
 #servicios.card .readmore:hover {
@@ -187,7 +226,7 @@ p {
 }
 
 #footer .footer-top {
-  background: #cdcd76;
+  background: #ffc107;
   padding: 60px 0 30px 0;
   color: #eee;
 }
@@ -220,7 +259,7 @@ p {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #cdcd76;
+  background: #ffc107;
   color: white;
   line-height: 1;
   padding: 8px 0;
@@ -261,11 +300,11 @@ p {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #abdb25;
+  color: #ffc107;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #abdb25;
+  color: #ffc107;
 }
 
 #footer .footer-top .footer-contact {
