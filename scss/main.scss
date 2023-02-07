@@ -91,7 +91,7 @@ p {
 
 .propiedades-titulo {
 
-    background-color: #ffc107;
+    background-color: #51425f;
     text-align: center;
     padding: 40px;
     color:white;
@@ -145,7 +145,7 @@ p {
 
 .oportunidades-titulo {
 
-    background-color:#ffc107;
+    background-color:#51425f;
     text-align: center;
     padding: 40px;
     color: white;
@@ -193,6 +193,18 @@ p {
 
 /* Servicios--------*/
 
+
+.servicios-titulo {
+
+    background-color:rgb(57, 57, 58) ;
+    padding: 20px;
+    color:#fff;
+    height:40%;
+   
+    text-align: center;
+    
+}
+
 #servicios {
     padding: 60px 0;
     background: #ffc107;
@@ -200,7 +212,7 @@ p {
 
 #servicios .section-header h3,
 #servicios .section-header p {
-    color: #fff;
+    color: #212529;
 }
 
 #servicios .card {
@@ -210,7 +222,7 @@ p {
     margin: 0 15px;
     padding: 15px 0;
     text-align: center;
-    color: #fff;
+    color:#212529;
     transition: 0.3s ease-in-out;
     height: 100%;
 }
@@ -223,7 +235,7 @@ p {
 #servicios .card i {
     font-size: 48px;
     padding-top: 15px;
-    color: #fff;
+    color: #212529;
 }
 
 #servicios .card h6 {
@@ -233,11 +245,11 @@ p {
 
 #servicios .card p {
     font-size: 15px;
-    color: #fff;
+    color: #212529;
 }
 
 #servicios .card .readmore {
-    color: #fff;
+    color: #030303;
     font-weight: 600;
     display: inline-block;
     transition: 0.3s ease-in-out;
@@ -257,7 +269,7 @@ p {
     font-weight: bold;
     font-size: 48px;
     display: block;
-    color: #fff;
+    color: #212529;
 }
 
 #servicios .counters p {
@@ -265,7 +277,7 @@ p {
     margin: 0 0 20px 0;
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
-    color: #cce5ff;
+    color:#212529;
 }
 
 /*----pie de pagina---*/
@@ -273,14 +285,14 @@ p {
 #footer {
     background: white;
     padding: 60px 0 30px 0;
-    color: #eee;
+    color: #212529;
     font-size: 14px;
 }
 
 #footer .footer-top {
     background: #ffc107;
     padding: 60px 0 30px 0;
-    color: #eee;
+    color: #212529;
 }
 
 #footer .footer-top .footer-info {
@@ -293,11 +305,11 @@ p {
     padding: 2px 0 2px 0;
     line-height: 1;
     font-family: "Montserrat", sans-serif;
-    color: #fff;
+    color: #212529;
     font-weight: bold;
     padding-bottom: 20px;
     text-transform: uppercase;
-    color: #eee;
+    color: #212529;
 }
 
 #footer .footer-top .footer-info p {
@@ -305,14 +317,14 @@ p {
     line-height: 24px;
     margin-bottom: 0;
     font-family: "Montserrat", sans-serif;
-    color: #ecf5ff;
+    color:#212529;
 }
 
 #footer .footer-top .social-links a {
     font-size: 18px;
     display: inline-block;
     background: #ffc107;
-    color: white;
+    color: #212529;
     line-height: 1;
     padding: 8px 0;
     margin-right: 4px;
@@ -328,7 +340,7 @@ p {
 #footer .footer-top h4 {
     font-size: 14px;
     font-weight: bold;
-    color: #fff;
+    color: #212529;
     text-transform: uppercase;
     position: relative;
     padding-bottom: 10px;
@@ -370,7 +382,7 @@ p {
 
 #footer .footer-top .footer-newsletter {
     margin-bottom: 30px;
-    color: #eee;
+    color: #212529;
 }
 
 #footer .footer-top .footer-newsletter input[type="email"] {
@@ -390,15 +402,15 @@ p {
 #footer .credits {
     text-align: center;
     font-size: 13px;
-    color: #f1f7ff;
+    color: #212529;
 }
 
 #footer .credits a {
-    color: #ecece8;
+    color: #212529;
 }
 
 #footer .credits a:hover {
-    color: #eee
+    color:#212529;
 }
 
 /*formulario*/
