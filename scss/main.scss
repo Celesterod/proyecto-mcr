@@ -91,10 +91,10 @@ p {
 
 .propiedades-titulo {
 
-    background-color: #51425f;
+    background-color:#373737;
     text-align: center;
     padding: 40px;
-    color:white;
+    color: white;
 }
 
 .propiedades-producto {
@@ -145,7 +145,7 @@ p {
 
 .oportunidades-titulo {
 
-    background-color:#51425f;
+    background-color:#373737;
     text-align: center;
     padding: 40px;
     color: white;
@@ -194,16 +194,9 @@ p {
 /* Servicios--------*/
 
 
-.servicios-titulo {
 
-    background-color:rgb(57, 57, 58) ;
-    padding: 20px;
-    color:#fff;
-    height:40%;
-   
-    text-align: center;
-    
-}
+
+
 
 #servicios {
     padding: 60px 0;
@@ -217,12 +210,12 @@ p {
 
 #servicios .card {
     background: #ffc107;
-    border-color:#ffc107;
+    border-color: #ffc107;
     border-radius: 10px;
     margin: 0 15px;
     padding: 15px 0;
     text-align: center;
-    color:#212529;
+    color: #212529;
     transition: 0.3s ease-in-out;
     height: 100%;
 }
@@ -277,7 +270,7 @@ p {
     margin: 0 0 20px 0;
     font-family: "Montserrat", sans-serif;
     font-size: 14px;
-    color:#212529;
+    color: #212529;
 }
 
 /*----pie de pagina---*/
@@ -317,7 +310,7 @@ p {
     line-height: 24px;
     margin-bottom: 0;
     font-family: "Montserrat", sans-serif;
-    color:#212529;
+    color: #212529;
 }
 
 #footer .footer-top .social-links a {
@@ -410,13 +403,14 @@ p {
 }
 
 #footer .credits a:hover {
-    color:#212529;
+    color: #212529;
 }
 
 /*formulario*/
 
 
-h2,h1 {
+h2,
+h1 {
 
     color: rgb(26, 23, 19);
     text-align: center;

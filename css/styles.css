@@ -74,7 +74,7 @@ p {
 
 /*----Empieza propiedades----*/
 .propiedades-titulo {
-  background-color: #51425f;
+  background-color: #373737;
   text-align: center;
   padding: 40px;
   color: white;
@@ -110,7 +110,7 @@ p {
 /*---Termina Propiedades--*/
 /*--empieza oportunidad--*/
 .oportunidades-titulo {
-  background-color: #51425f;
+  background-color: #373737;
   text-align: center;
   padding: 40px;
   color: white;
@@ -143,14 +143,6 @@ p {
 }
 
 /* Servicios--------*/
-.servicios-titulo {
-  background-color: rgb(57, 57, 58);
-  padding: 20px;
-  color: #fff;
-  height: 40%;
-  text-align: center;
-}
-
 #servicios {
   padding: 60px 0;
   background: #ffc107;
@@ -356,7 +348,8 @@ p {
 }
 
 /*formulario*/
-h2 {
+h2,
+h1 {
   color: rgb(26, 23, 19);
   text-align: center;
   margin: 0;
